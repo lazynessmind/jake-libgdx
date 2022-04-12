@@ -1,0 +1,24 @@
+{
+    "project_name": "libgdx",
+    "version": "1.0.0",
+    "src_path": "./src",
+    "build_path": "./build",
+    "entry_point": "lazy.libgdx.Main",
+    "libs": [
+        "./libs/gdx-1.10.0.jar",
+        "./libs/gdx-backend-lwjgl3-1.10.0.jar",
+        "./libs/gdx-platform-1.10.0-natives-desktop.jar",
+        "./libs/lwjgl-glfw-natives-linux.jar",
+        "./libs/lwjgl-glfw.jar",
+        "./libs/lwjgl-natives-linux.jar",
+        "./libs/lwjgl-opengl-natives-linux.jar",
+        "./libs/lwjgl-openal-natives-linux.jar",
+        "./libs/lwjgl-opengl.jar",
+        "./libs/lwjgl-openal.jar",
+        "./libs/lwjgl.jar"
+    ],
+    "include": [
+        "./licenses/",
+        "./assets/"
+    ]
+}
